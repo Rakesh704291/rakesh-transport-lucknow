@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bolero Pickup 8 Ft Available for Freight Booking in Lucknow | Rakesh Kumar</title>
+
+  <meta name="description"
+        content="Bolero Pickup 8 Ft available for freight booking in Lucknow. Contact Rakesh Kumar for local and outstation transport and load booking.">
+
+  <meta name="keywords"
+        content="Bolero Pickup Lucknow, 8 Ft Pickup Lucknow, freight booking Lucknow, pickup truck available Lucknow, goods transport Lucknow">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      font-size: 21px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      margin-bottom: 25px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 23px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    .call {
+      background: white;
+      color: #111827;
+    }
+
+    .whatsapp {
+      background: #16a34a;
+      color: white;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1050px;
+      margin: 35px auto;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 14px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      margin-bottom: 18px;
+      color: #111827;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .detail {
+      background: #f3f4f6;
+      padding: 16px;
+      border-radius: 9px;
+    }
+
+    .detail strong {
+      display: block;
+      color: #555;
+      font-size: 14px;
+    }
+
+    .detail span {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .routes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .route {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      padding: 10px 15px;
+      border-radius: 20px;
+    }
+
+    form {
+      display: grid;
+      gap: 14px;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .submit {
+      background: #16a34a;
+      color: white;
+      font-size: 17px;
+    }
+
+    .notice {
+      background: #ecfdf5;
+      border-left: 5px solid #16a34a;
+      padding: 15px;
+      margin-top: 15px;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 650px) {
+      .hero h1 {
+        font-size: 28px;
+      }
+
+      .details {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>🚚 Rakesh Kumar Transport</h2>
+  <span>Lucknow</span>
+</header>
+
+<section class="hero">
+
+  <h1>Bolero Pickup 8 Ft Available for Freight Booking in Lucknow</h1>
+
+  <p>
+    Local & Outstation Goods Transport • Load Booking • Reliable Service
+  </p>
+
+  <div class="buttons">
+
+    <!-- CHANGE PHONE NUMBER -->
+    <a class="btn call" href="tel:YOUR_PHONE_NUMBER">
+      📞 Call Now
+    </a>
+
+    <!-- CHANGE WHATSAPP NUMBER -->
+    <a class="btn whatsapp"
+       href="https://wa.me/YOUR_PHONE_NUMBER?text=Hello%20Rakesh%20Ji,%20I%20need%20a%20Bolero%20Pickup%208%20Ft%20for%20freight%20booking.">
+      💬 WhatsApp Booking
+    </a>
+
+  </div>
+
+</section>
+
+<div class="container">
+
+  <section class="card">
+
+    <h2>🚛 Truck Details</h2>
+
+    <div class="details">
+
+      <div class="detail">
+        <strong>Vehicle</strong>
+        <span>Bolero Pickup</span>
+      </div>
+
+      <div class="detail">
+        <strong>Body Size</strong>
+        <span>8 Ft</span>
+      </div>
+
+      <div class="detail">
+        <strong>Current Location</strong>
+        <span>Lucknow, Uttar Pradesh</span>
+      </div>
+
+      <div class="detail">
+        <strong>Service</strong>
+        <span>Freight / Goods Transport</span>
+      </div>
+
+      <div class="detail">
+        <strong>Booking Type</strong>
+        <span>Local & Outstation</span>
+      </div>
+
+      <div class="detail">
+        <strong>Driver / Owner</strong>
+        <span>Rakesh Kumar</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="card">
+
+    <h2>📦 Freight Booking Available</h2>
+
+    <p>
+      Bolero Pickup 8 Ft is available for transporting goods and freight
+      from Lucknow and nearby areas.
+    </p>
+
+    <div class="notice">
+      ✅ Call or WhatsApp to check vehicle availability,
+      route and freight booking details.
+    </div>
+
+  </section>
+
+
+  <section class="card">
+
+    <h2>🛣️ Available Routes</h2>
+
+    <div class="routes">
+
+      <div class="route">Lucknow → Kanpur</div>
+      <div class="route">Lucknow → Unnao</div>
+      <div class="route">Lucknow → Barabanki</div>
+      <div class="route">Lucknow → Ayodhya</div>
+      <div class="route">Lucknow → Prayagraj</div>
+      <div class="route">Lucknow → Nearby Areas</div>
+
+    </div>
+
+    <p style="margin-top:15px;">
+      Other routes may be available. Please contact Rakesh Kumar
+      before booking.
+    </p>
+
+  </section>
+
+
+  <section class="card">
+
+    <h2>📋 Request Freight Booking</h2>
+
+    <form onsubmit="sendWhatsApp(); return false;">
+
+      <input id="name"
+             type="text"
+             placeholder="Your Name"
+             required>
+
+      <input id="phone"
+             type="tel"
+             placeholder="Your Mobile Number"
+             required>
+
+      <input id="from"
+             type="text"
+             placeholder="Pickup Location"
+             required>
+
+      <input id="to"
+             type="text"
+             placeholder="Delivery Location"
+             required>
+
+      <input id="goods"
+             type="text"
+             placeholder="Type of Goods">
+
+      <input id="date"
+             type="date">
+
+      <textarea id="message"
+                placeholder="Additional details"></textarea>
+
+      <button class="btn submit" type="submit">
+        💬 Send Booking Request on WhatsApp
+      </button>
+
+    </form>
+
+  </section>
+
+
+  <section class="card">
+
+    <h2>📞 Contact Rakesh Kumar</h2>
+
+    <p>
+      For vehicle availability, freight rates and booking:
+    </p>
+
+    <br>
+
+    <div class="buttons">
+
+      <!-- CHANGE PHONE NUMBER -->
+      <a class="btn call" href="tel:YOUR_PHONE_NUMBER">
+        📞 Call Rakesh Kumar
+      </a>
+
+      <!-- CHANGE WHATSAPP NUMBER -->
+      <a class="btn whatsapp"
+         href="https://wa.me/YOUR_PHONE_NUMBER">
+        💬 WhatsApp
+      </a>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+<footer>
+
+  <p>© 2026 Rakesh Kumar Transport</p>
+  <p>Bolero Pickup 8 Ft • Freight Booking • Lucknow</p>
+
+</footer>
+
+
+<script>
+
+function sendWhatsApp() {
+
+  // CHANGE THIS NUMBER
+  const number = "YOUR_PHONE_NUMBER";
+
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const from = document.getElementById("from").value;
+  const to = document.getElementById("to").value;
+  const goods = document.getElementById("goods").value;
+  const date = document.getElementById("date").value;
+  const message = document.getElementById("message").value;
+
+  const text =
+`🚚 Freight Booking Request
+
+Name: ${name}
+Mobile: ${phone}
+
+Pickup: ${from}
+Delivery: ${to}
+
+Goods: ${goods}
+Date: ${date}
+
+Details:
+${message}`;
+
+  window.open(
+    "https://wa.me/" + number + "?text=" +
+    encodeURIComponent(text),
+    "_blank"
+  );
+}
+
+</script>
+
+</body>
+</html>

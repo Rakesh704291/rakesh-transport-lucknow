@@ -2,195 +2,676 @@
 <html lang="en">
 <head>
 
-<meta name="google-site-verification" content="RD2ZFbgSxXp3-nWveuBvietVAqFjzmkmr9aZqqI3x6w">
+<meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification"
+content="RD2ZFbgSxXp3-nWveuBvietVAqFjzmkmr9aZqqI3x6w">
 
-<title>Rakesh Kumar Transport Lucknow | Super Carry Freight Booking</title>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="Rakesh Kumar Transport Lucknow. Super Carry available for local and outstation goods transport and freight booking. Call or WhatsApp for booking.">
+<title>Super Carry Goods Transport in Lucknow | Rakesh Kumar Transport</title>
+
+<meta name="description"
+content="Super Carry goods transport service in Lucknow. Local and outstation freight booking. Call or WhatsApp Rakesh Kumar for vehicle booking.">
+
+<meta name="keywords"
+content="Super Carry transport Lucknow, goods transport Lucknow, freight booking Lucknow, pickup service Lucknow, Rakesh Kumar Transport">
+
+<meta name="robots" content="index, follow">
 
 <style>
 
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
 body{
-font-family:Arial,sans-serif;
-margin:0;
-background:#f5f5f5;
-color:#222;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f7fb;
+    color:#172033;
+    line-height:1.6;
 }
 
-header{
-background:#111827;
-color:white;
-padding:20px;
-text-align:center;
-}
-
-header h2{
-margin:0 0 8px;
-}
-
-header p{
-margin:0;
-}
-
-.hero{
-background:#f59e0b;
-color:white;
-text-align:center;
-padding:50px 15px;
-}
-
-.hero h1{
-font-size:32px;
-margin:0 0 15px;
-}
-
-.hero p{
-font-size:18px;
+a{
+    text-decoration:none;
 }
 
 .container{
-max-width:900px;
-margin:25px auto;
-padding:15px;
+    width:92%;
+    max-width:1150px;
+    margin:auto;
 }
 
-.card{
-background:white;
-padding:25px;
-margin-bottom:20px;
-border-radius:12px;
-box-shadow:0 3px 12px rgba(0,0,0,0.08);
+/* HEADER */
+
+header{
+    background:#071426;
+    color:white;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 3px 15px rgba(0,0,0,.2);
+}
+
+.nav{
+    max-width:1150px;
+    width:92%;
+    margin:auto;
+    min-height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-size:21px;
+    font-weight:800;
+}
+
+.logo span{
+    color:#ffb703;
+}
+
+.nav-btn{
+    background:#ffb703;
+    color:#111;
+    padding:10px 17px;
+    border-radius:25px;
+    font-weight:800;
+}
+
+/* HERO */
+
+.hero{
+    background:
+    linear-gradient(135deg,rgba(4,16,32,.96),rgba(10,39,68,.88)),
+    url("super-carry.jpeg") center/cover;
+    color:white;
+    padding:65px 0 75px;
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:40px;
+    align-items:center;
+}
+
+.badge{
+    display:inline-block;
+    background:rgba(255,183,3,.15);
+    border:1px solid #ffb703;
+    color:#ffd166;
+    padding:7px 14px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:18px;
+}
+
+.hero h1{
+    font-size:48px;
+    line-height:1.12;
+    margin-bottom:18px;
+}
+
+.hero h1 span{
+    color:#ffb703;
+}
+
+.hero p{
+    color:#dce7f4;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
 }
 
 .btn{
-display:inline-block;
-padding:13px 20px;
-margin:5px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;
+    display:inline-block;
+    padding:14px 22px;
+    border-radius:10px;
+    font-weight:800;
+    transition:.2s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
 }
 
 .call{
-background:white;
-color:#111;
+    background:#ffb703;
+    color:#111;
 }
 
 .whatsapp{
-background:#16a34a;
-color:white;
+    background:#20c76a;
+    color:white;
 }
 
-.photo{
-width:100%;
-max-width:650px;
-display:block;
-margin:20px auto;
-border-radius:15px;
-box-shadow:0 5px 20px rgba(0,0,0,0.15);
+.hero-card{
+    background:white;
+    padding:10px;
+    border-radius:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,.3);
 }
 
-.photo-title{
-text-align:center;
-margin-top:10px;
+.hero-card img{
+    width:100%;
+    height:330px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.vehicle-tag{
+    color:#111;
+    padding:12px 8px 5px;
+    text-align:center;
+    font-weight:800;
+}
+
+/* TRUST STRIP */
+
+.trust{
+    margin-top:-30px;
+    position:relative;
+    z-index:5;
+}
+
+.trust-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    background:white;
+    border-radius:16px;
+    box-shadow:0 10px 35px rgba(0,0,0,.1);
+    overflow:hidden;
+}
+
+.trust-item{
+    padding:20px;
+    text-align:center;
+    border-right:1px solid #eee;
+}
+
+.trust-item:last-child{
+    border-right:none;
+}
+
+.trust-item strong{
+    display:block;
+    font-size:18px;
+}
+
+/* SECTIONS */
+
+section{
+    padding:70px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+.section-title p{
+    color:#64748b;
+}
+
+/* ABOUT */
+
+.about-grid{
+    display:grid;
+    grid-template-columns:.85fr 1.15fr;
+    gap:35px;
+    align-items:center;
+}
+
+.about-img{
+    width:100%;
+    height:390px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 12px 35px rgba(0,0,0,.15);
+}
+
+.about-text h2{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.about-text p{
+    color:#526174;
+    margin-bottom:15px;
+}
+
+.owner-box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    margin-top:20px;
+    border-left:5px solid #ffb703;
+    box-shadow:0 8px 25px rgba(0,0,0,.07);
+}
+
+/* VEHICLE */
+
+.vehicle-section{
+    background:#071426;
+    color:white;
+}
+
+.vehicle-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:35px;
+    align-items:center;
+}
+
+.vehicle-img{
+    width:100%;
+    height:390px;
+    object-fit:cover;
+    border-radius:20px;
+    border:5px solid rgba(255,255,255,.08);
+}
+
+.vehicle-info h2{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.vehicle-info p{
+    color:#cbd5e1;
+}
+
+.specs{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin:25px 0;
+}
+
+.spec{
+    background:#10233d;
+    padding:17px;
+    border-radius:12px;
+}
+
+.spec small{
+    color:#94a3b8;
+    display:block;
+}
+
+.spec strong{
+    color:white;
+    font-size:18px;
+}
+
+/* PRICING */
+
+.price-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:15px;
+}
+
+.price-card{
+    background:white;
+    padding:22px 12px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 7px 25px rgba(0,0,0,.07);
+    border:1px solid #e8edf3;
+}
+
+.price-card:first-child{
+    border:2px solid #ffb703;
+}
+
+.price-card .distance{
+    font-weight:bold;
+    color:#64748b;
+    font-size:14px;
 }
 
 .price{
-display:flex;
-flex-wrap:wrap;
-gap:10px;
+    font-size:24px;
+    font-weight:900;
+    color:#071426;
+    margin-top:8px;
 }
 
-.box{
-background:#fff7ed;
-border:1px solid #fed7aa;
-padding:18px;
-text-align:center;
-border-radius:8px;
-flex:1;
-min-width:130px;
+.note{
+    text-align:center;
+    margin-top:22px;
+    color:#64748b;
 }
 
-.box b{
-display:block;
-margin-bottom:8px;
-}
+/* ROUTES */
 
-.box strong{
-font-size:24px;
-color:#d97706;
-}
-
-input,
-textarea{
-width:100%;
-padding:12px;
-margin:7px 0;
-border:1px solid #ccc;
-border-radius:7px;
-box-sizing:border-box;
-}
-
-textarea{
-min-height:100px;
-resize:vertical;
-}
-
-button{
-background:#16a34a;
-color:white;
-padding:14px;
-border:0;
-border-radius:8px;
-font-weight:bold;
-width:100%;
-cursor:pointer;
+.routes{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
 }
 
 .route{
-padding:10px;
-background:#f9fafb;
-margin:7px 0;
-border-radius:7px;
+    background:white;
+    padding:20px;
+    border-radius:13px;
+    box-shadow:0 6px 20px rgba(0,0,0,.06);
+    font-weight:700;
 }
 
-.video-box{
-text-align:center;
+.route span{
+    color:#ff9800;
 }
 
-.video-box video{
-width:100%;
-max-width:700px;
-border-radius:15px;
-box-shadow:0 5px 20px rgba(0,0,0,0.15);
+/* WHY */
+
+.why{
+    background:#eef4fa;
 }
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.why-card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 7px 25px rgba(0,0,0,.06);
+}
+
+.icon{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+/* BOOKING */
+
+.booking{
+    background:
+    linear-gradient(135deg,#071426,#12365a);
+    color:white;
+}
+
+.booking-box{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    color:#172033;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 15px 45px rgba(0,0,0,.25);
+}
+
+.booking-box h2{
+    text-align:center;
+    margin-bottom:8px;
+}
+
+.booking-box .sub{
+    text-align:center;
+    color:#64748b;
+    margin-bottom:25px;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #dbe2ea;
+    border-radius:9px;
+    font-size:15px;
+    outline:none;
+}
+
+input:focus,select:focus,textarea:focus{
+    border-color:#ffb703;
+}
+
+textarea{
+    min-height:100px;
+    resize:vertical;
+}
+
+.full{
+    grid-column:1/-1;
+}
+
+.book-btn{
+    width:100%;
+    border:0;
+    padding:16px;
+    border-radius:10px;
+    background:#20c76a;
+    color:white;
+    font-size:17px;
+    font-weight:900;
+    cursor:pointer;
+}
+
+/* CONTACT */
+
+.contact{
+    text-align:center;
+}
+
+.phone{
+    font-size:32px;
+    font-weight:900;
+    color:#071426;
+    display:block;
+    margin:12px 0 22px;
+}
+
+/* FOOTER */
 
 footer{
-background:#111827;
-color:white;
-text-align:center;
-padding:20px;
+    background:#050d18;
+    color:#aeb9c7;
+    text-align:center;
+    padding:30px 15px 85px;
 }
 
-@media(max-width:600px){
-
-.hero h1{
-font-size:26px;
+footer strong{
+    color:white;
 }
 
-.card{
-padding:18px;
+/* MOBILE BAR */
+
+.mobile-bar{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:white;
+    padding:9px;
+    display:flex;
+    gap:8px;
+    z-index:2000;
+    box-shadow:0 -4px 20px rgba(0,0,0,.15);
 }
 
-.box{
-min-width:100px;
+.mobile-bar a{
+    flex:1;
+    text-align:center;
+    padding:13px 5px;
+    border-radius:8px;
+    color:white;
+    font-weight:900;
 }
+
+.mobile-call{
+    background:#ff9800;
+}
+
+.mobile-wa{
+    background:#20c76a;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:850px){
+
+    .hero-grid,
+    .about-grid,
+    .vehicle-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero{
+        padding:45px 0 60px;
+    }
+
+    .hero h1{
+        font-size:37px;
+    }
+
+    .hero-card{
+        max-width:550px;
+        margin:auto;
+    }
+
+    .trust-grid{
+        grid-template-columns:1fr;
+    }
+
+    .trust-item{
+        border-right:none;
+        border-bottom:1px solid #eee;
+    }
+
+    .price-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .routes,
+    .why-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+@media(max-width:550px){
+
+    .logo{
+        font-size:17px;
+    }
+
+    .nav-btn{
+        font-size:13px;
+        padding:8px 12px;
+    }
+
+    section{
+        padding:55px 0;
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .hero-card img{
+        height:250px;
+    }
+
+    .about-img,
+    .vehicle-img{
+        height:300px;
+    }
+
+    .section-title h2,
+    .about-text h2,
+    .vehicle-info h2{
+        font-size:28px;
+    }
+
+    .price-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .price{
+        font-size:20px;
+    }
+
+    .routes,
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .form-grid{
+        grid-template-columns:1fr;
+    }
+
+    .full{
+        grid-column:auto;
+    }
+
+    .phone{
+        font-size:26px;
+    }
 
 }
 
 </style>
+
+<!-- LOCAL BUSINESS SEO -->
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Rakesh Kumar Transport",
+  "description":"Local and outstation goods transport and freight booking service in Lucknow.",
+  "telephone":"+91-9670463908",
+  "url":"https://rakesh704291.github.io/rakesh-transport-lucknow/",
+  "image":"https://rakesh704291.github.io/rakesh-transport-lucknow/super-carry.jpeg",
+  "address":{
+    "@type":"PostalAddress",
+    "addressLocality":"Lucknow",
+    "addressRegion":"Uttar Pradesh",
+    "addressCountry":"IN"
+  },
+  "areaServed":[
+    "Lucknow",
+    "Kanpur",
+    "Unnao",
+    "Barabanki",
+    "Ayodhya",
+    "Prayagraj"
+  ]
+}
+</script>
 
 </head>
 
@@ -198,140 +679,294 @@ min-width:100px;
 
 <header>
 
-<h2>🚚 Rakesh Kumar Transport</h2>
+<div class="nav">
 
-<p>Lucknow, Uttar Pradesh</p>
+<div class="logo">
+🚚 Rakesh Kumar <span>Transport</span>
+</div>
+
+<a class="nav-btn" href="#booking">
+Book Vehicle
+</a>
+
+</div>
 
 </header>
 
 
+<!-- HERO -->
+
 <section class="hero">
 
-<h1>Super Carry Available in Lucknow</h1>
+<div class="container hero-grid">
 
-<p>Local & Outstation Goods Transport • Freight Booking</p>
+<div>
 
-<a class="btn call" href="tel:9670463908">
+<div class="badge">
+🚚 SUPER CARRY AVAILABLE NOW
+</div>
+
+<h1>
+Super Carry Goods Transport
+<span>in Lucknow</span>
+</h1>
+
+<p>
+Local & Outstation Goods Transport •
+Fast Freight Booking • Reliable Service
+</p>
+
+<div class="hero-buttons">
+
+<a class="btn call"
+href="tel:9670463908">
 📞 Call Now
 </a>
 
-<a class="btn whatsapp" href="https://wa.me/919670463908">
-💬 WhatsApp
+<a class="btn whatsapp"
+href="https://wa.me/919670463908?text=Hello%20Rakesh%20Kumar%2C%20mujhe%20Super%20Carry%20booking%20chahiye."
+target="_blank">
+💬 WhatsApp Booking
 </a>
+
+</div>
+
+</div>
+
+
+<div class="hero-card">
+
+<img
+src="super-carry.jpeg"
+alt="Super Carry Goods Transport in Lucknow">
+
+<div class="vehicle-tag">
+🚚 Super Carry • 900–1000 Kg
+</div>
+
+</div>
+
+</div>
 
 </section>
 
 
+<!-- TRUST -->
+
+<div class="trust">
+
 <div class="container">
 
+<div class="trust-grid">
 
-<!-- RAKESH KUMAR -->
+<div class="trust-item">
+<strong>🚚 900–1000 Kg</strong>
+Vehicle Capacity
+</div>
 
-<div class="card">
+<div class="trust-item">
+<strong>📍 Lucknow</strong>
+Local & Outstation
+</div>
 
-<h2 class="photo-title">
-👤 Meet Rakesh Kumar
-</h2>
+<div class="trust-item">
+<strong>📞 Direct Booking</strong>
+Call / WhatsApp
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ABOUT -->
+
+<section>
+
+<div class="container about-grid">
+
+<div>
 
 <img
+class="about-img"
 src="rakesh-kumar.jpeg"
-alt="Rakesh Kumar Transport Lucknow"
-class="photo"
->
-
-<p style="text-align:center;">
-
-<b>Rakesh Kumar</b><br>
-
-Local & Outstation Goods Transport Service in Lucknow
-
-</p>
+alt="Rakesh Kumar Transport Lucknow">
 
 </div>
 
+<div class="about-text">
 
-<!-- SUPER CARRY -->
+<div class="badge" style="color:#b77900;border-color:#ffb703;">
+OWNER
+</div>
 
-<div class="card">
-
-<h2 class="photo-title">
-🚚 Our Super Carry
+<h2>
+Meet Rakesh Kumar
 </h2>
 
-<img
-src="super-carry.jpeg"
-alt="Super Carry Goods Transport in Lucknow"
-class="photo"
->
-
-<p style="text-align:center;">
-
-<b>Super Carry</b><br>
-
-Load Capacity: 900–1000 Kg<br>
-
-Available for Local & Outstation Freight Booking
-
+<p>
+Lucknow mein local aur outstation goods transport
+service ke liye direct vehicle booking available hai.
 </p>
 
+<p>
+Super Carry ko small aur medium freight movement
+ke liye book kiya ja sakta hai.
+</p>
+
+<div class="owner-box">
+
+<strong>👤 Rakesh Kumar</strong>
+
+<br>
+
+Local & Outstation Goods Transport Service
+
+<br>
+
+📞 <strong>9670463908</strong>
+
 </div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- VEHICLE -->
+
+<section class="vehicle-section">
+
+<div class="container vehicle-grid">
+
+<div>
+
+<img
+class="vehicle-img"
+src="super-carry.jpeg"
+alt="Super Carry freight vehicle Lucknow">
+
+</div>
+
+<div class="vehicle-info">
+
+<div class="badge">
+AVAILABLE FOR BOOKING
+</div>
+
+<h2>
+Super Carry
+</h2>
+
+<p>
+Lucknow se local aur outstation freight ke liye
+Super Carry available hai.
+</p>
+
+<div class="specs">
+
+<div class="spec">
+<small>Vehicle</small>
+<strong>Super Carry</strong>
+</div>
+
+<div class="spec">
+<small>Capacity</small>
+<strong>900–1000 Kg</strong>
+</div>
+
+<div class="spec">
+<small>Location</small>
+<strong>Lucknow</strong>
+</div>
+
+<div class="spec">
+<small>Booking</small>
+<strong>Call / WhatsApp</strong>
+</div>
+
+</div>
+
+<a class="btn whatsapp"
+href="https://wa.me/919670463908?text=Hello%20Rakesh%20Kumar%2C%20Super%20Carry%20booking%20ke%20liye%20details%20chahiye."
+target="_blank">
+💬 Check Vehicle Availability
+</a>
+
+</div>
+
+</div>
+
+</section>
 
 
 <!-- VIDEO -->
 
-<div class="card video-box">
+<section>
 
-<h2>
-🎥 Super Carry Video
-</h2>
+<div class="container">
+
+<div class="section-title">
+
+<h2>🎥 Super Carry Video</h2>
 
 <p>
-Watch our Super Carry goods transport vehicle.
+Our goods transport vehicle
 </p>
 
-<video controls preload="metadata">
+</div>
 
-<source src="super-carry-video.mp4" type="video/mp4">
+<div style="
+max-width:850px;
+margin:auto;
+background:#071426;
+padding:10px;
+border-radius:20px;
+">
+
+<video
+controls
+preload="metadata"
+style="
+width:100%;
+display:block;
+border-radius:14px;
+">
+
+<source
+src="super-carry-video.mp4"
+type="video/mp4">
 
 Your browser does not support the video tag.
 
 </video>
 
-<p>
+</div>
+
+<p style="
+text-align:center;
+margin-top:15px;
+font-weight:bold;
+">
 Super Carry • 900–1000 Kg • Lucknow
 </p>
 
 </div>
 
-
-<!-- TRUCK DETAILS -->
-
-<div class="card">
-
-<h2>🚛 Truck Details</h2>
-
-<p>
-<b>Vehicle:</b> Super Carry
-</p>
-
-<p>
-<b>Load Capacity:</b> 900–1000 Kg
-</p>
-
-<p>
-<b>Location:</b> Lucknow, Uttar Pradesh
-</p>
-
-<p>
-<b>Owner:</b> Rakesh Kumar
-</p>
-
-</div>
+</section>
 
 
 <!-- PRICING -->
 
-<div class="card">
+<section style="background:#f8fafc;">
+
+<div class="container">
+
+<div class="section-title">
 
 <h2>💰 Freight Pricing</h2>
 
@@ -339,224 +974,353 @@ Super Carry • 900–1000 Kg • Lucknow
 Super Carry Freight Rates
 </p>
 
-<div class="price">
-
-<div class="box">
-
-<b>0.5 KM</b>
-
-<strong>₹790/-</strong>
-
 </div>
 
+<div class="price-grid">
 
-<div class="box">
-
-<b>5 - 10 KM</b>
-
-<strong>₹1,350/-</strong>
-
+<div class="price-card">
+<div class="distance">0.5 KM</div>
+<div class="price">₹790/-</div>
 </div>
 
-
-<div class="box">
-
-<b>10 - 15 KM</b>
-
-<strong>₹2,150/-</strong>
-
+<div class="price-card">
+<div class="distance">5 – 10 KM</div>
+<div class="price">₹1,350/-</div>
 </div>
 
-
-<div class="box">
-
-<b>15 - 20 KM</b>
-
-<strong>₹2,640/-</strong>
-
+<div class="price-card">
+<div class="distance">10 – 15 KM</div>
+<div class="price">₹2,150/-</div>
 </div>
 
+<div class="price-card">
+<div class="distance">15 – 20 KM</div>
+<div class="price">₹2,640/-</div>
+</div>
 
-<div class="box">
-
-<b>20 - 25 KM</b>
-
-<strong>₹2,900/-</strong>
-
+<div class="price-card">
+<div class="distance">20 – 25 KM</div>
+<div class="price">₹2,900/-</div>
 </div>
 
 </div>
 
-<p>
-✅ Final fare route and loading requirements ke according confirm hoga.
+<p class="note">
+✅ Final fare route, distance and loading requirements ke according confirm hoga.
 </p>
 
 </div>
 
+</section>
+
 
 <!-- ROUTES -->
 
-<div class="card">
+<section>
 
-<h2>🛣️ Available Routes</h2>
+<div class="container">
 
-<div class="route">Lucknow → Kanpur</div>
+<div class="section-title">
 
-<div class="route">Lucknow → Unnao</div>
+<h2>🛣️ Popular Routes</h2>
 
-<div class="route">Lucknow → Barabanki</div>
-
-<div class="route">Lucknow → Ayodhya</div>
-
-<div class="route">Lucknow → Prayagraj</div>
-
-<div class="route">Lucknow → Nearby Areas</div>
+<p>
+Lucknow se freight booking
+</p>
 
 </div>
+
+<div class="routes">
+
+<div class="route">
+<span>➜</span> Lucknow → Kanpur
+</div>
+
+<div class="route">
+<span>➜</span> Lucknow → Unnao
+</div>
+
+<div class="route">
+<span>➜</span> Lucknow → Barabanki
+</div>
+
+<div class="route">
+<span>➜</span> Lucknow → Ayodhya
+</div>
+
+<div class="route">
+<span>➜</span> Lucknow → Prayagraj
+</div>
+
+<div class="route">
+<span>➜</span> Lucknow → Nearby Areas
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- WHY CHOOSE -->
+
+<section class="why">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>⭐ Why Book With Us?</h2>
+
+<p>
+Simple, direct aur convenient freight booking
+</p>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<div class="icon">🚚</div>
+
+<h3>Dedicated Vehicle</h3>
+
+<p>
+Super Carry goods transport ke liye available.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<div class="icon">📱</div>
+
+<h3>Direct Booking</h3>
+
+<p>
+Broker ke bina direct Call ya WhatsApp booking.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<div class="icon">📍</div>
+
+<h3>Local & Outstation</h3>
+
+<p>
+Lucknow aur nearby routes ke liye booking.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 
 
 <!-- BOOKING -->
 
-<div class="card">
+<section class="booking" id="booking">
 
-<h2>📋 Freight Booking</h2>
+<div class="container">
 
-<form onsubmit="sendWhatsApp();return false;">
+<div class="booking-box">
+
+<h2>📋 Quick Freight Booking</h2>
+
+<p class="sub">
+Details fill karein — booking request direct WhatsApp par bhejein.
+</p>
+
+<form id="bookingForm">
+
+<div class="form-grid">
 
 <input
+type="text"
 id="name"
 placeholder="Your Name"
-required
->
+required>
 
 <input
+type="tel"
 id="phone"
-placeholder="Your Mobile Number"
-required
->
+placeholder="Mobile Number"
+required>
 
 <input
-id="from"
+type="text"
+id="pickup"
 placeholder="Pickup Location"
-required
->
+required>
 
 <input
-id="to"
-placeholder="Delivery Location"
-required
->
+type="text"
+id="drop"
+placeholder="Drop Location"
+required>
 
-<input
-id="goods"
-placeholder="Type of Goods"
->
+<select id="load" class="full" required>
 
-<input
-id="date"
-type="date"
->
+<option value="">
+Select Approx Load
+</option>
+
+<option>Up to 500 Kg</option>
+<option>500–700 Kg</option>
+<option>700–900 Kg</option>
+<option>900–1000 Kg</option>
+
+</select>
 
 <textarea
 id="message"
-placeholder="Additional Details"
-></textarea>
+class="full"
+placeholder="Goods / loading details"></textarea>
 
-<button type="submit">
-💬 Send Booking on WhatsApp
+<div class="full">
+
+<button
+type="submit"
+class="book-btn">
+💬 Send Booking Request on WhatsApp
 </button>
+
+</div>
+
+</div>
 
 </form>
 
 </div>
 
+</div>
+
+</section>
+
 
 <!-- CONTACT -->
 
-<div class="card">
+<section class="contact">
 
-<h2>📞 Contact Rakesh Kumar</h2>
+<div class="container">
+
+<div class="section-title">
+
+<h2>📞 Need a Vehicle?</h2>
 
 <p>
-WhatsApp / Call:
-<b>9670463908</b>
+Call or WhatsApp Rakesh Kumar directly
 </p>
+
+</div>
+
+<a
+class="phone"
+href="tel:9670463908">
+9670463908
+</a>
+
+<div class="hero-buttons" style="justify-content:center;">
 
 <a
 class="btn call"
-href="tel:9670463908"
->
+href="tel:9670463908">
 📞 Call Rakesh Kumar
 </a>
 
 <a
 class="btn whatsapp"
-href="https://wa.me/919670463908"
->
-💬 WhatsApp
+href="https://wa.me/919670463908?text=Hello%20Rakesh%20Kumar%2C%20mujhe%20freight%20booking%20chahiye."
+target="_blank">
+💬 WhatsApp Now
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<strong>🚚 Rakesh Kumar Transport</strong>
+
+<br>
+
+Lucknow, Uttar Pradesh
+
+<br><br>
+
+Super Carry • 900–1000 Kg • Freight Booking
+
+<br><br>
+
+© 2026 Rakesh Kumar Transport
+
+</footer>
+
+
+<!-- MOBILE BOTTOM BUTTONS -->
+
+<div class="mobile-bar">
+
+<a
+class="mobile-call"
+href="tel:9670463908">
+📞 Call
+</a>
+
+<a
+class="mobile-wa"
+href="https://wa.me/919670463908?text=Hello%20Rakesh%20Kumar%2C%20mujhe%20Super%20Carry%20booking%20chahiye."
+target="_blank">
+💬 WhatsApp Booking
 </a>
 
 </div>
 
 
-</div>
-
-
-<footer>
-
-<p>
-© 2026 Rakesh Kumar Transport
-</p>
-
-<p>
-Super Carry • 900–1000 Kg • Freight Booking • Lucknow
-</p>
-
-</footer>
-
-
 <script>
 
-function sendWhatsApp(){
+document.getElementById("bookingForm").addEventListener("submit",function(e){
 
-var number="919670463908";
+e.preventDefault();
 
-var text=
-"🚚 Freight Booking Request\n\n"+
-"Vehicle: Super Carry\n"+
-"Load Capacity: 900–1000 Kg\n\n"+
-"Name: "+
-document.getElementById("name").value+
-"\n"+
-"Mobile: "+
-document.getElementById("phone").value+
-"\n\n"+
-"Pickup: "+
-document.getElementById("from").value+
-"\n"+
-"Delivery: "+
-document.getElementById("to").value+
-"\n\n"+
-"Goods: "+
-document.getElementById("goods").value+
-"\n"+
-"Date: "+
-document.getElementById("date").value+
-"\n\n"+
-"Details: "+
-document.getElementById("message").value;
+var name=document.getElementById("name").value;
+var phone=document.getElementById("phone").value;
+var pickup=document.getElementById("pickup").value;
+var drop=document.getElementById("drop").value;
+var load=document.getElementById("load").value;
+var message=document.getElementById("message").value;
+
+var text =
+"🚚 *Super Carry Freight Booking Request*%0A%0A" +
+"👤 Name: " + encodeURIComponent(name) + "%0A" +
+"📞 Mobile: " + encodeURIComponent(phone) + "%0A" +
+"📍 Pickup: " + encodeURIComponent(pickup) + "%0A" +
+"📍 Drop: " + encodeURIComponent(drop) + "%0A" +
+"📦 Load: " + encodeURIComponent(load) + "%0A" +
+"📝 Goods Details: " + encodeURIComponent(message);
 
 window.open(
-"https://wa.me/"+number+
-"?text="+
-encodeURIComponent(text),
+"https://wa.me/919670463908?text=" + text,
 "_blank"
 );
 
-}
+});
 
 </script>
 
-</body>
 
+</body>
 </html>

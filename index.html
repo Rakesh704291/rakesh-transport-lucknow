@@ -1,56 +1,240 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta name="google-site-verification" content="RD2ZFbgSxXp3-nWveuBvietVAqFjzmkmr9aZqqI3x6w" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-body{font-family:Arial;margin:0;background:#f5f5f5;color:#222}
-header{background:#111827;color:white;padding:20px;text-align:center}
-.hero{background:#f59e0b;color:white;text-align:center;padding:50px 15px}
-h1{font-size:32px}
-.container{max-width:900px;margin:25px auto;padding:15px}
-.card{background:white;padding:25px;margin-bottom:20px;border-radius:12px}
-.btn{display:inline-block;padding:13px 20px;margin:5px;border-radius:8px;text-decoration:none;font-weight:bold}
-.call{background:white;color:#111}
-.whatsapp{background:#16a34a;color:white}
-.price{display:flex;flex-wrap:wrap;gap:10px}
-.box{background:#fff7ed;border:1px solid #fed7aa;padding:18px;text-align:center;border-radius:8px;flex:1;min-width:130px}
-.box b{display:block}
-.box strong{font-size:24px;color:#d97706}
-input,textarea{width:100%;padding:12px;margin:7px 0;border:1px solid #ccc;border-radius:7px;box-sizing:border-box}
-button{background:#16a34a;color:white;padding:14px;border:0;border-radius:8px;font-weight:bold;width:100%}
-footer{background:#111827;color:white;text-align:center;padding:20px}
+
+body{
+font-family:Arial;
+margin:0;
+background:#f5f5f5;
+color:#222
+}
+
+header{
+background:#111827;
+color:white;
+padding:20px;
+text-align:center
+}
+
+.hero{
+background:#f59e0b;
+color:white;
+text-align:center;
+padding:50px 15px
+}
+
+h1{
+font-size:32px
+}
+
+.container{
+max-width:900px;
+margin:25px auto;
+padding:15px
+}
+
+.card{
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:12px
+}
+
+.btn{
+display:inline-block;
+padding:13px 20px;
+margin:5px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold
+}
+
+.call{
+background:white;
+color:#111
+}
+
+.whatsapp{
+background:#16a34a;
+color:white
+}
+
+.price{
+display:flex;
+flex-wrap:wrap;
+gap:10px
+}
+
+.box{
+background:#fff7ed;
+border:1px solid #fed7aa;
+padding:18px;
+text-align:center;
+border-radius:8px;
+flex:1;
+min-width:130px
+}
+
+.box b{
+display:block
+}
+
+.box strong{
+font-size:24px;
+color:#d97706
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:7px 0;
+border:1px solid #ccc;
+border-radius:7px;
+box-sizing:border-box
+}
+
+button{
+background:#16a34a;
+color:white;
+padding:14px;
+border:0;
+border-radius:8px;
+font-weight:bold;
+width:100%
+}
+
+/* Owner & Vehicle Photos */
+
+.photo{
+width:100%;
+max-width:650px;
+display:block;
+margin:20px auto;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.15)
+}
+
+.photo-title{
+text-align:center;
+margin-top:10px
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px
+}
+
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <h2>🚚 Rakesh Kumar Transport</h2>
+
 <p>Lucknow</p>
+
 </header>
 
+
 <section class="hero">
+
 <h1>Super Carry Available in Lucknow</h1>
+
 <p>Local & Outstation Goods Transport • Freight Booking</p>
 
-<a class="btn call" href="tel:9670463908">📞 Call Now</a>
-<a class="btn whatsapp" href="https://wa.me/919670463908">💬 WhatsApp</a>
+<a class="btn call" href="tel:9670463908">
+📞 Call Now
+</a>
+
+<a class="btn whatsapp" href="https://wa.me/919670463908">
+💬 WhatsApp
+</a>
+
 </section>
+
 
 <div class="container">
 
-<div class="card">
-<h2>🚛 Truck Details</h2>
-<p><b>Vehicle:</b> Super Carry</p>
-<p><b>Load Capacity:</b> 900–1000 Kg</p>
-<p><b>Location:</b> Lucknow, Uttar Pradesh</p>
-<p><b>Owner:</b> Rakesh Kumar</p>
-</div>
+
+<!-- RAKESH KUMAR PHOTO -->
 
 <div class="card">
+
+<h2 class="photo-title">
+👤 Meet Rakesh Kumar
+</h2>
+
+<img
+src="images/rakesh-kumar.jpg"
+alt="Rakesh Kumar Transport Lucknow"
+class="photo"
+>
+
+<p style="text-align:center;">
+<b>Rakesh Kumar</b><br>
+Local & Outstation Goods Transport Service in Lucknow
+</p>
+
+</div>
+
+
+<!-- SUPER CARRY PHOTO -->
+
+<div class="card">
+
+<h2 class="photo-title">
+🚚 Our Super Carry
+</h2>
+
+<img
+src="images/super-carry.jpg"
+alt="Super Carry Goods Transport in Lucknow"
+class="photo"
+>
+
+<p style="text-align:center;">
+<b>Super Carry</b><br>
+Load Capacity: 900–1000 Kg<br>
+Available for Local & Outstation Freight Booking
+</p>
+
+</div>
+
+
+<!-- TRUCK DETAILS -->
+
+<div class="card">
+
+<h2>🚛 Truck Details</h2>
+
+<p><b>Vehicle:</b> Super Carry</p>
+
+<p><b>Load Capacity:</b> 900–1000 Kg</p>
+
+<p><b>Location:</b> Lucknow, Uttar Pradesh</p>
+
+<p><b>Owner:</b> Rakesh Kumar</p>
+
+</div>
+
+
+<!-- PRICING -->
+
+<div class="card">
+
 <h2>💰 Freight Pricing</h2>
+
 <p>Super Carry Freight Rates</p>
 
 <div class="price">
@@ -82,20 +266,38 @@ footer{background:#111827;color:white;text-align:center;padding:20px}
 
 </div>
 
-<p>✅ Final fare route and loading requirements ke according confirm hoga.</p>
+<p>
+✅ Final fare route and loading requirements ke according confirm hoga.
+</p>
+
 </div>
 
+
+<!-- ROUTES -->
+
 <div class="card">
+
 <h2>🛣️ Available Routes</h2>
+
 <p>Lucknow → Kanpur</p>
+
 <p>Lucknow → Unnao</p>
+
 <p>Lucknow → Barabanki</p>
+
 <p>Lucknow → Ayodhya</p>
+
 <p>Lucknow → Prayagraj</p>
+
 <p>Lucknow → Nearby Areas</p>
+
 </div>
 
+
+<!-- BOOKING -->
+
 <div class="card">
+
 <h2>📋 Freight Booking</h2>
 
 <form onsubmit="sendWhatsApp();return false;">
@@ -114,26 +316,49 @@ footer{background:#111827;color:white;text-align:center;padding:20px}
 
 <textarea id="message" placeholder="Additional Details"></textarea>
 
-<button type="submit">💬 Send Booking on WhatsApp</button>
+<button type="submit">
+💬 Send Booking on WhatsApp
+</button>
 
 </form>
+
 </div>
+
+
+<!-- CONTACT -->
 
 <div class="card">
+
 <h2>📞 Contact Rakesh Kumar</h2>
-<p>WhatsApp / Call: <b>9670463908</b></p>
 
-<a class="btn call" href="tel:9670463908">📞 Call Rakesh Kumar</a>
+<p>
+WhatsApp / Call: <b>9670463908</b>
+</p>
 
-<a class="btn whatsapp" href="https://wa.me/919670463908">💬 WhatsApp</a>
+<a class="btn call" href="tel:9670463908">
+📞 Call Rakesh Kumar
+</a>
+
+<a class="btn whatsapp" href="https://wa.me/919670463908">
+💬 WhatsApp
+</a>
+
 </div>
 
+
 </div>
+
 
 <footer>
+
 <p>© 2026 Rakesh Kumar Transport</p>
-<p>Super Carry • 900–1000 Kg • Freight Booking • Lucknow</p>
+
+<p>
+Super Carry • 900–1000 Kg • Freight Booking • Lucknow
+</p>
+
 </footer>
+
 
 <script>
 
